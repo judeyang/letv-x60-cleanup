@@ -12,7 +12,7 @@
 它不刷机、不升级 Android、不替换系统底层，只是把不想要的东西「关掉」而不是「删掉」。
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/halfrightlab/letv-x60-cleanup?style=flat-square)](https://github.com/halfrightlab/letv-x60-cleanup/releases)
+[![Release](https://img.shields.io/github/v/release/judeyang/letv-x60-cleanup?style=flat-square)](https://github.com/judeyang/letv-x60-cleanup/releases)
 [![Device](https://img.shields.io/badge/LeTV-X60%20%C2%B7%20EUI%206.0.070S-e60012?style=flat-square)](#先看你的电视能不能用)
 [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](x60_tool.py)
 
@@ -59,7 +59,7 @@
 
 ## 下载
 
-1. 到 [Releases](https://github.com/halfrightlab/letv-x60-cleanup/releases) 下载 [完整工具 ZIP](https://github.com/halfrightlab/letv-x60-cleanup/releases/download/v2.0.0/letv-x60-tool-v2.zip) 和 [SHA-256 校验文件](https://github.com/halfrightlab/letv-x60-cleanup/releases/download/v2.0.0/letv-x60-tool-v2.zip.sha256)。
+1. 到 [Releases](https://github.com/judeyang/letv-x60-cleanup/releases) 下载 [完整工具 ZIP](https://github.com/judeyang/letv-x60-cleanup/releases/download/v2.0.0/letv-x60-tool-v2.zip) 和 [SHA-256 校验文件](https://github.com/judeyang/letv-x60-cleanup/releases/download/v2.0.0/letv-x60-tool-v2.zip.sha256)。
 2. 在两个文件所在目录运行 `shasum -a 256 -c letv-x60-tool-v2.zip.sha256`，显示 `OK` 再解压。ZIP 的 SHA-256 是 `afc30cd942a0f5dad5f8048e056b2579eef86f56ab55d9f0bdb3b8fee1ec6a50`。
 3. 认准完整工具 ZIP，它里面带着两个必需的 APK。GitHub 自动生成的 `Source code (zip)` 和 `Code → Download ZIP` 只是源码快照，**缺 APK，跑不起来**。
 
@@ -168,7 +168,7 @@ ROADMAP.md            已完成和尚未验证的事项
 
 | | 谁 | 干了什么 |
 |---|---|---|
-| 🧑‍🔬 | [半对实验室 halfrightlab](https://github.com/halfrightlab) | 出主意、贡献自家电视、真机验收 |
+| 🧑‍🔬 | [半对实验室 judeyang](https://github.com/judeyang) | 出主意、贡献自家电视、真机验收 |
 | 🤖 | [Claude](https://github.com/claude)（Anthropic） | 编程助手 |
 | 🤖 | [Codex / ChatGPT](https://github.com/codex)（OpenAI） | 编程助手 |
 | 🤖 | WorkBuddy | 编程助手 |
